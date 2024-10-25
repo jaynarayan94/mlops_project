@@ -1,0 +1,8 @@
+# requirements.txt
+apache-airflow
+pandas
+scikit-learn
+mlflow
+boto3
+sagemaker
+pytest
