@@ -1,0 +1,2 @@
+2024-10-25 17:34:35,458 - INFO - Starting upload of ../data/processed/processed_data.csv to bucket mlops-project-jay as processed_data.csv.
+2024-10-25 17:34:36,241 - ERROR - The file ../data/processed/processed_data.csv was not found.

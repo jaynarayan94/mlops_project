@@ -1,7 +1,11 @@
-# scripts/start_pipeline.py
-
-import logging
+import sys
+import os
 import boto3
+import logging
+
+# Add project root to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from src.logger import setup_logger
 
 # Set up logger

@@ -1,8 +1,11 @@
-# src/upload_to_s3.py
+import sys
+import os
+
+# Add the project root to sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import logging
 import boto3
-import os
 from src.logger import setup_logger
 
 # Set up logger
