@@ -1,0 +1,7 @@
+train:
+  data: "/opt/ml/processing/train/train.csv"  # Change if needed
+  model: "model.pkl"                          # Change if needed
+  s3_bucket: "mlops-project-jay"           # Add your S3 bucket name here
+  random_state: 42                            # Change if needed
+  n_estimators: 100                           # Change if needed
+  max_depth: 10                               # Change if needed
