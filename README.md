@@ -1,3 +1,4 @@
+```
 mlops_project/
 │
 ├── data/
@@ -43,3 +44,4 @@ mlops_project/
 ├── .gitignore                  # Files and directories to ignore in Git
 ├── README.md                   # Documentation for the project
 └── requirements.txt            # List of Python packages needed for the project
+```
